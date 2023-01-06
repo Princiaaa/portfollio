@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Prince</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i> Home</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link"><i class="uil uil-file-alt nav__icon"></i> Skills</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i> Services</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i> Portfolio</a></li>
+                        <li class="nav__item"><a href="#testimonial" class="nav__link"><i class="uil uil-feedback nav__icon"></i> Testimonials</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i> Contact Me</a></li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!--Theme change button-->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/princerajyadav/" target="_blank" class="home__social-icon"><i class="uil uil-linkedin-alt"></i></a>
+                            <a href="https://dribbble.com/princerajy/shots" target="_blank" class="home__social-icon"><i class="uil uil-dribbble"></i></a>
+                            <a href="https://www.instagram.com/rajprincia/" target="_blank" target="_blank" class="home__social-icon"><i class="uil uil-instagram"></i></a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    
+                                    <image class="home__blob-img" x="-5" y="12" xlink:href="img/pic.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Myself <span>Prince Raj Yadav</span> and I am a <span>Designer</span>.</h1>
+                            <p class="home__description">I'm a freelance UX and Graphic designer, persuing my bachelor's in Engineering Physics at IIT Roorkee. 
+                                I leverage Design Thinking in my work to help shape the development of products and services based on
+                                user needs. In my spare time I play guitar and love to sing, I also enjoy playing 
+                                PC games with my friends.</p>
+                                <a href="#contact" class="button button--flex">
+                                    Contact Me<i class="uil uil-message button__icon"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#skills" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+                
+                <div class="skills__container container grid">
+                    <div>
+                        <!--====SKILL 1====-->
+
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-illustration skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Graphic Design</h1>
+                                    <span class="skills__subtitle">More than 3 years</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe Illustrator</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__AI1"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__FI1"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe Photoshop</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__AP1"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--====SKILL 2====-->
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-object-group skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Product Design</h1>
+                                    <span class="skills__subtitle">More than 2 years</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__FI2"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe xD</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__AX"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe Illustrator</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__AI2"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--====SKILL 2====-->
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-presentation-play skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Motion Design</h1>
+                                    <span class="skills__subtitle">More than a year</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name"> Adobe After Effects</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__FI2"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe Premiere Pro</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__AX"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe Illustrator</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__AI2"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--====SKILL 4====-->
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-web-grid skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Frontend Development</h1>
+                                    <span class="skills__subtitle">More than a year</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__HTML"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__CSS"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Java Script</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__JS"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <!--<section class="qualification section">
+
+            </section>-->
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">What I offer</span>
+
+                <div class="services__container container grid">
+
+                    <!--===service 1====-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-web-grid services__icon"></i>
+                            <h3 class="services__title">Product Design</h3>
+                        </div>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <p>I aim to build minimal but attractive and user friendly UI 
+                                    along with comprehensive UX research to enhance 
+                                    the desired product.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===service 2====-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-bullseye services__icon"></i>
+                            <h3 class="services__title">Branding</h3>
+                        </div>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+
+                                <p>I focus on creating a distinct identity for a 
+                                    business in the mind of your target audience 
+                                    and consumers by using minimalistic design elements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===service 3====-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-band-aid services__icon"></i>
+                            <h3 class="services__title">Redesign</h3>
+                        </div>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+
+                                <p>I can help ameliorate your existing product or logo and collaborate 
+                                    with the design team to enhance user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===service 4====-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-illustration services__icon"></i>
+                            <h3 class="services__title">Illustrations</h3>
+                        </div>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+
+                                <p>I started my design journey from graphic design and making logos. 
+                                    Consequently, creating catchy illustrations is one of my major 
+                                    skills</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===service 5====-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-okta services__icon"></i>
+                            <h3 class="services__title">Logo</h3>
+                        </div>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+
+                                <p>Using design map I can help you create a very minimal and noise-less logo that will 
+                                    imprint your product's essence in your user's mind.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Most recent work</span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <!--===========PORTFOLIO 1==========-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                            <div class="porfolio__data">
+                                <h3 class="portfolio__title">Merchandise</h3>
+                                <p class="portfolio__description">I aim to design minimal and attractive 
+                                    merchandise for social groups, college groups, or any organization.
+                                    Here are some of my merchandise works.</p>
+                                <a href="https://drive.google.com/drive/folders/1-c-Tq2qHo0zpEy9m14NAWQUHkaXOuvAa?usp=sharing" class="button button--flex button--small portfolio__button">
+                                    View More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--===========PORTFOLIO 2==========-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                            <div class="porfolio__data">
+                                <h3 class="portfolio__title">Modern Website</h3>
+                                <p class="portfolio__description">I focus on building user friendly UI along with 
+                                    comprehensive UX research to enhance 
+                                    the desired product. Click on View More to see my recent projects</p>
+                                <a href="https://drive.google.com/drive/folders/1PFDABL5yDvSF2m3ddvSLcb4DeAKj6W-w?usp=sharing" class="button button--flex button--small portfolio__button">
+                                    View More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--===========PORTFOLIO 3==========-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                            <div class="porfolio__data">
+                                <h3 class="portfolio__title">Infographics and Arts</h3>
+                                <p class="portfolio__description">I also create inforgraphics for social media 
+                                    and along with that whenever I am free I draw some digital arts on my own.
+                                Click on View More to see my art work.</p>
+                                <a href="https://drive.google.com/drive/folders/13IMCGgeRXtVoT_ln-jmkG4rZvtD4WiU3?usp=sharing" class="button button--flex button--small portfolio__button">
+                                    View More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!--===========PORTFOLIO 4==========-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="img/portfolio4.jpg" alt="" class="portfolio__img">
+
+                            <div class="porfolio__data">
+                                <h3 class="portfolio__title">Logos</h3>
+                                <p class="portfolio__description">I have designed logos for firms like 
+                                    Blogtiple as a freelancer. Also I have submitted some of them for competitions.
+                                    To have a look over them click on View More.</p>
+                                <a href="https://drive.google.com/drive/folders/1hzSeg6fQUlk2eDP1NjGqoENclVEbTI12?usp=sharing" class="button button--flex button--small portfolio__button">
+                                    View More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--===========PORTFOLIO 5==========-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="img/portfolio5.jpg" alt="" class="portfolio__img">
+
+                            <div class="porfolio__data">
+                                <h3 class="portfolio__title">Motion Design</h3>
+                                <p class="portfolio__description">I have recently started exploring motion design, while learning
+                                    I have crested some animations on my own one of them is linked below.
+                                </p>
+                                <a href="https://drive.google.com/drive/folders/1-UvbKe_GJKlvDJu06YcPvP84fIR4t-VO?usp=sharing" class="button button--flex button--small portfolio__button">
+                                    View More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--Add arrow-->
+                    <div class="swiper-container-horizontal">
+                        <div class="swiper-button-next">
+                            <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                        </div>
+    
+                        <!--Pagination-->
+                        <div class="swiper-pagination"></div>
+                    </div> 
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <!--<section class="project section">
+
+            </section>-->
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section" id="testimonial">
+                <h2 class="section__title">Testimonial</h2>
+                <span class="section__subtitle">What my cliets say</span>
+
+                <div class="testimonial__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--=========testimonial 1===========-->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="img/girjesh.jpeg" alt="" class="testimonial__img">
+                                    
+                                    <div>
+                                        <h3 class="testimonial__name">Girjesh Singh <a href="https://www.linkedin.com/in/girjesh-singh-877929208/" class="testsocial"><i class="uil uil-linkedin-alt home__social-icon"></i></a> </h3>
+                                        <span class="testimonial__client">Co-founder at H&W Tech.</span>
+                                    </div>
+                                </div>
+
+                                <!-- <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div> -->
+                            </div>
+
+                            <p class="testimonial__description">Prince is a unique person with an eye for creative design 
+                                and its process. He always met expectations on time. His understanding of 
+                                concepts makes him a great designer that surpassed my imagination many times.</p>
+                        </div>
+
+                        <!--=========testimonial 2===========-->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="img/ashish.jpeg" alt="" class="testimonial__img">
+                                    
+                                    <div>
+                                        <h3 class="testimonial__name">Ashish Maurya <a href="https://www.linkedin.com/in/theashishmaurya/" class="testsocial"><i class="uil uil-linkedin-alt home__social-icon"></i></a> </h3>
+                                        <span class="testimonial__client">Founder Blogtiple</span>
+                                    </div>
+                                </div>
+
+                                <!-- <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div> -->
+                            </div>
+
+                            <p class="testimonial__description">I'm glad I decided to work with Prince, he was truly a collaborative 
+                                person during the whole process. He always came out with an out of the box idea for any 
+                                problem during the work and made it fun to work instead of stressful.</p>
+                        </div>
+
+                        <!--=========testimonial 3===========-->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="img/ashutosh.jpeg" alt="" class="testimonial__img">
+                                    
+                                    <div>
+                                        <h3 class="testimonial__name">Ashutosh Kumar <a href="https://www.linkedin.com/in/ashutoshkumar1069/" class="testsocial"><i class="uil uil-linkedin-alt home__social-icon"></i></a></h3>
+                                        <span class="testimonial__client">Secretary, AirSoc IITR</span>
+                                    </div>
+                                </div>
+
+                                <!-- <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div> -->
+                            </div>
+
+                            <p class="testimonial__description">I really like Prince having on my team with such explicit 
+                                design skills. The best part about him that he always managed to get us a brilliant design 
+                                even in ephemeral time period.</p>
+                        </div>
+
+                        <!--=========testimonial 4===========-->
+                        <!-- <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="img/pic.png" alt="" class="testimonial__img">
+                                    
+                                    <div>
+                                        <h3 class="testimonial__name">Prince Raj4</h3>
+                                        <span class="testimonial__client">Client4</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div>
+                            </div>
+
+                            <p class="testimonial__description">Hello world4</p>
+                        </div> -->
+                    </div>
+
+                    <!--pagination-->
+                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+                    <div class="boxes">
+                        <!-- <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">+91 9454621278</span>
+                            </div>
+                        </div> -->
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <a href="mailto:rajy.prince00gmail.com">
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">rajy.prince00@gmail.com</span>
+                            </a>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-linkedin-alt contact__icon"></i>
+
+                            <a href="https://www.linkedin.com/in/princerajyadav/">
+                                <h3 class="contact__title">LInkedin</h3>
+                                <span class="contact__subtitle">princerajyadav</span>
+                            </a>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-instagram contact__icon"></i>
+
+                            <a href="https://www.instagram.com/rajprincia/">
+                                <h3 class="contact__title">Instagram</h3>
+                                <span class="contact__subtitle">rajprincia</span>
+                            </a>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-facebook-f contact__icon"></i>
+
+                            <a href="https://www.facebook.com/princeraj.yadav.319">
+                                <h3 class="contact__title">Facebook</h3>
+                                <span class="contact__subtitle">princeraj.yadav.319</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input" id="form__name">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input" id="form__email">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Project</label>
+                            <input type="text" class="contact__input" id="form__project">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input" id="form__msg"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex" id="sendbutton">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Prince</h1>
+                        <span class="footer_subtitle">Designer</span>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact Me</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="#" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy"></p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="jscript/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="jscript/main.js"></script>
+    </body>
+</html>
